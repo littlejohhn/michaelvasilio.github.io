@@ -131,17 +131,19 @@ body .navbar {
 
   .navbar {
     text-align: center; /* Center the navigation items */
+    
   }
 
   .navbar a {
-    display: block; /* Make navigation items stack vertically */
+    display: inline-block; /* Make navigation items stack vertically */
     width: 100%; /* Take up full width */
-    padding: 1rem 0; /* Adjust padding */
+    padding: 1vw 1vw; /* Adjust padding */
   }
 
   .dropdown {
     display: block; /* Ensure dropdowns stack vertically */
     text-align: center; /* Center dropdown items */
+    margin-left: 27vw;
   }
 }
 
