@@ -134,24 +134,12 @@ body .navbar {
     width: 100%;
     flex-basis: 100%;
   }
-
-  .proj-img-format{
-    width:50%;
-    height:50%;
-  }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-
-  .row {
-    flex-basis: 100%;
-  }
-
-  .navbar a {
-      float: none;
-      width: 100%;
-      flex-basis: 50%;
+  .side, .main {
+    flex-basis: 100%; /* Set both columns to take up full width */
   }
 
   .proj-img-format{
