@@ -123,19 +123,29 @@ body .navbar {
   box-shadow: 0 0 0.2rem 0.1rem #727272;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 700px wide */
 @media screen and (max-width: 700px) {
   .row {
-      flex-basis: 100%;
+    flex-basis: 100%;
+  }
+
+  .navbar a {
+    float: none;
+    width: 100%;
+    flex-basis: 100%;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 400px wide */
 @media screen and (max-width: 400px) {
+  .row,
   .navbar a {
-      float: none;
-      width: 100%;
-      flex-basis: 100%;
+    flex-basis: 100%;
+  }
+
+  .proj-img-format {
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -195,7 +205,7 @@ hr {
   padding: 1vw 1vw;
   background-color: inherit;
   font-family: inherit;
-  margin: 5vw;
+  margin: auto;
 }
 
 .dropdown:hover .dropbtn {
