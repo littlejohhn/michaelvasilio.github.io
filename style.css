@@ -139,7 +139,6 @@ body .navbar {
   }
 
   .proj-img-format{
-    flex-basis: 100%;
     width:50%
   }
 }
