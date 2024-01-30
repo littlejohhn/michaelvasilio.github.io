@@ -195,7 +195,7 @@ hr {
   padding: 1vw 1vw;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  margin: auto;
 }
 
 .dropdown:hover .dropbtn {
